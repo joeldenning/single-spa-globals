@@ -1,0 +1,35 @@
+{
+  "name": "single-spa-globals",
+  "version": "1.0.0",
+  "description": "A single spa plugin for apps that leak globals",
+  "main": "dist/single-spa-globals.dist.js",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "scripts": {
+    "build": "babel src/single-spa-globals.js --out-file dist/single-spa-globals.dist.js --source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeldenning/single-spa-globals.git"
+  },
+  "keywords": [
+    "single",
+    "spa",
+    "global",
+    "globals",
+    "leak",
+    "page",
+    "application"
+  ],
+  "author": "Joel Denning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joeldenning/single-spa-globals/issues"
+  },
+  "homepage": "https://github.com/joeldenning/single-spa-globals#readme",
+  "devDependencies": {
+    "babel-cli": "6.0.15",
+    "babel-preset-es2015": "6.0.15"
+  }
+}
